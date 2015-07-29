@@ -16,7 +16,7 @@ Within the ```<head>``` tags of your html document:
 <link rel="stylesheet" type="text/css" href="[PATH-TO-CSS-ASSETS]/gingerbox.css">
 ```
 
-## HTML images
+## HTML links
 
 Anywhere within your html code, where you're willing to generate an image lightbox:
 ```html
