@@ -1,5 +1,7 @@
 # GingerBox
-The image lightbox used on http://user.io, inspired from Android GingerBread's screen shutdown animation.
+The image lightbox used on http://user.io, inspired from Android GingerBread's screen shutdown animation:
+
+![alt tag](http://www.smallab.org/content/files/9/file55b8fc9dc8c32.gif)
 
 ## JS integration
 
@@ -20,5 +22,5 @@ Within the ```<head>``` tags of your html document:
 
 Anywhere within your html code, where you're willing to generate an image lightbox:
 ```html
-<a href="[PATH-TO-IMAGE]/my-image.jpg" class="gingerBoxLink">Open an image in a GingerBox!</a>
+<a href="[PATH-TO-IMAGE]/my-image.jpg" class="gingerBoxLink">Open my-image.jpg in a GingerBox!</a>
 ```
