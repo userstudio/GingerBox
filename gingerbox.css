@@ -1,0 +1,49 @@
+/**
+ *	CSS
+ *	gingerbox.scss
+ *
+ *	@author msavary
+ *	Copyright (c) 2010-2015, User Studio (USER.IO). All rights reserved.
+ *
+ */
+
+.gingerBoxOverlay {
+    z-index:9997;
+    position:absolute;
+    top:0;
+    left:0;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background:#000;
+    opacity:0;
+    filter:alpha(opacity=0);
+    cursor:pointer;
+}
+
+.gingerBoxContainer {
+    z-index:9998;
+    position:absolute;
+    left:-9999em;
+    @include border-box;
+    margin: 0;
+    padding: 0;
+    background: white;
+    border: solid 12px white;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
+.gingerBoxClose {
+    z-index:9999;
+	display: block;
+    opacity:0;
+    filter:alpha(opacity=0);
+    position:absolute;
+    left:-9999em;
+    margin: 0;
+    padding:0px;
+	width: 32px;
+	height: 32px;
+    cursor:pointer;
+}
