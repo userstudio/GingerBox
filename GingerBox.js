@@ -1,6 +1,6 @@
 /**
  *	JS
- *	GingerBox.js
+ *	gingerbox.js
  * 
  *	@author msavary
  *	Copyright (c) 2010-2015, User Studio (USER.IO). All rights reserved.
