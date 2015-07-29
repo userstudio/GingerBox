@@ -18,7 +18,7 @@ Within the ```<head>``` tags of your html document:
 
 ## HTML images
 
-Within your html code:
+Anywhere within your html code, where you're willing to generate an image lightbox:
 ```html
-<a href="[PATH-TO-IMAGE]/my-image.jpg" class="gingerBoxLink"><img src="[PATH-TO-IMAGE]/my-image.jpg"></a>
+<a href="[PATH-TO-IMAGE]/my-image.jpg" class="gingerBoxLink">Open an image in a GingerBox!</a>
 ```
